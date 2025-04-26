@@ -1,0 +1,12 @@
+name: Hello Worldifier
+description: Says hello, of course.
+author: https://github.com/cnunciato
+requirements: 
+  - something-non-existent
+  - some-other-thing
+  - node
+configuration:
+  properties: 
+    greeting: 
+      type: string
+  additionalProperties: false

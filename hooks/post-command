@@ -1,0 +1,10 @@
+#!/bin/bash
+set -euo pipefail
+
+GREETING="$BUILDKITE_PLUGIN_HELLO_WORLDIFIER_GREETING"
+
+echo "${GREETING}"
+
+node hooks/index.js
+
+buildkite-agent annotate "Successfully greeted the world with the following message: '${GREETING}'"

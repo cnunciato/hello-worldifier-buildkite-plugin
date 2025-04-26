@@ -1,0 +1,1 @@
+console.log(process.env.BUILDKITE_PLUGIN_HELLO_WORLDIFIER_GREETING);
